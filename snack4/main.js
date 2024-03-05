@@ -52,7 +52,7 @@ const people = [
 ];
 
 const driver = [];
-const abletToDrive = people.filter((member) => {
+people.forEach(member => {
 
     let peopleName = member.nome;
     let peopleSecondName = member.cognome;
@@ -67,6 +67,6 @@ const abletToDrive = people.filter((member) => {
         // console.log(`Spiacente ${peopleName} ${peopleSecondName}, devi avere almeno 18 anni`);
     }
 
-} );
+});
 
 console.log(driver);
