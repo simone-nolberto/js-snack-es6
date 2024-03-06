@@ -39,9 +39,14 @@ bikes.forEach(bike => {
     const { name, weight } = bike;
     // console.log(name, weight);
     const min = Math.min(...bikes.map(bike => bike.weight))
-    console.log(min)
+    const lighterBike = bikes.filter((bike) => {
+        if (bike.weight === min) {
+            return true;
+            
+        }
+        return false;
+    });
 
+    console.log(lighterBike);
+    
 });
-
-
-
