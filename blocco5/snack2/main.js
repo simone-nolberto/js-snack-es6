@@ -76,13 +76,10 @@ short.forEach(element => {
 console.log(`${shortWeight}g`);
 
 
-let long = zuchinis.filter((zuchini) => {
-    if (zuchini.lunghezza >= 15) {
-        return true;
-    }
-    return false;
-})
+let long = zuchinis.filter(zuchini => (zuchini.lunghezza >= 15))
 console.log(long);
+
+// così vediamo entrambi i modi per creare due array tramite filter
 
 let longWeight = 0;
 long.forEach(element => {
