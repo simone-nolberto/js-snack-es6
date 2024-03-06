@@ -76,7 +76,6 @@ short.forEach(element => {
 console.log(`${shortWeight}g`);
 
 
-
 let long = zuchinis.filter((zuchini) => {
     if (zuchini.lunghezza >= 15) {
         return true;
