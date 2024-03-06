@@ -62,8 +62,8 @@ console.log(zuchinis);
 let sum = 0;
 
 zuchinis.forEach((zuchini) => {
-//    console.log(zuchini.lunghezza);
-   sum += zuchini.lunghezza;
+
+   sum += zuchini.peso;
    
    return sum;
 
