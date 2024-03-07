@@ -42,11 +42,12 @@ bikes.forEach(bike => {
     const lighterBike = bikes.filter((bike) => {
         if (bike.weight === min) {
             return true;
-            
+
         }
         return false;
     });
-
     console.log(lighterBike);
-    
+
+
+
 });
